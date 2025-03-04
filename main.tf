@@ -8,7 +8,7 @@ terraform {
 }
 
 locals {
-  jones = ["indy", "henry", "marian"]
+  jones = ["indy", "henry", "marian", "sallah"]
 }
 
 resource "null_resource" "jones" {
